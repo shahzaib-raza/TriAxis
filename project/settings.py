@@ -1,0 +1,10 @@
+SECRET_KEY='dev'
+DEBUG=True
+ALLOWED_HOSTS=[]
+INSTALLED_APPS=['django.contrib.staticfiles','converter']
+MIDDLEWARE=[]
+ROOT_URLCONF='project.urls'
+TEMPLATES=[{'BACKEND':'django.template.backends.django.DjangoTemplates','DIRS':['converter/templates'],'APP_DIRS':True}]
+WSGI_APPLICATION='project.wsgi.application'
+STATIC_URL='/static/'
+STATICFILES_DIRS=['converter/static']
